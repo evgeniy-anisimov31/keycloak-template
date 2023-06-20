@@ -1,4 +1,4 @@
-import {DB_DATA} from "../db/db";
+import {DB_DATA} from "../../db/db";
 
 class UserService {
   async getUsers() {
