@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": false,
+    "esModuleInterop": true,
+    "target": "es6",
+    "lib": ["scripthost", "es2019"],
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noEmit": false,
+    "outDir": "build",
+    "sourceRoot": "./src/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "./src"
+  },
+  "exclude": ["node_modules", "build", "src/**/*.mocks.ts"],
+  "include": ["src/**/*"],
+  "ts-node": {
+    "transpileOnly": true,
+  }
+}
